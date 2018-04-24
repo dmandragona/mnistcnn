@@ -96,7 +96,7 @@ if mode == 2:
   # Output accuracy.
   f = open("output%d.txt" % mode, "a")
   f.write("\n")
-  string = (20 * '*') + 'model 1' + (20 * '*') + '\n'
+  string = (20 * '*') + 'model 2' + (20 * '*') + '\n'
   print(string)
   f.write(string)
   print('accuracy is %f' % (accuracy))
@@ -116,7 +116,7 @@ if mode == 3:
   # Output accuracy.
   f = open("output%d.txt" % mode, "a")
   f.write("\n")
-  string = (20 * '*') + 'model 1' + (20 * '*') + '\n'
+  string = (20 * '*') + 'model 3' + (20 * '*') + '\n'
   print(string)
   f.write(string)
   print('accuracy is %f' % (accuracy))
@@ -137,7 +137,7 @@ if mode == 4:
   # Output accuracy.
   f = open("output%d.txt" % mode, "a")
   f.write("\n")
-  string = (20 * '*') + 'model 1' + (20 * '*') + '\n'
+  string = (20 * '*') + 'model 4' + (20 * '*') + '\n'
   print(string)
   f.write(string)
   print('accuracy is %f' % (accuracy))
@@ -160,7 +160,7 @@ if mode == 5:
   # Output accuracy.
   f = open("output%d.txt" % mode, "a")
   f.write("\n")
-  string = (20 * '*') + 'model 1' + (20 * '*') + '\n'
+  string = (20 * '*') + 'model 5' + (20 * '*') + '\n'
   print(string)
   f.write(string)
   print('accuracy is %f' % (accuracy))
