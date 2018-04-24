@@ -109,11 +109,11 @@ class ConvNet(object):
 
         hidden1 = tf.contrib.layers.fully_connected(pool2,hidden_size,
             activation_fn = tf.nn.relu, 
-            kernel_regularizer = tf.contrib.layers.l2_regularizer(scale=1))
+            weights_regularizer = tf.contrib.layers.l2_regularizer(scale=.1))
 
         return tf.contrib.layers.fully_connected(hidden1,hidden_size,
             activation_fn = tf.nn.relu, 
-            kernel_regularizer = tf.contrib.layers.l2_regularizer(scale=1))
+            weights_regularizer = tf.contrib.layers.l2_regularizer(scale=.1))
 
 
 
@@ -216,7 +216,7 @@ class ConvNet(object):
             #
             has_GPU = True
             if has_GPU:
-                gpu_option = tf.GPUOptions(per_process_gpu_memory_fraction=0.3)
+                gpu_option = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
                 config = tf.ConfigProto(gpu_options=gpu_option)
             else:
                 config = tf.ConfigProto()
