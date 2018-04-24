@@ -229,12 +229,14 @@ class ConvNet(object):
                     f.write(string)
                     start_time = time.time()
                     s = 0
+                    printStep = train_size // 100
                     while s < train_size:
                         e = min(s + batch_size, train_size)
                         batch_x = trainX[s: e]
                         batch_y = trainY[s: e]
                         sess.run(train_op, feed_dict={X: batch_x, Y: batch_y, is_train: True})
-                        #print("Finished data up to {} out of {}".format(e,train_size))
+                        if (s % printStep) == 0:    
+                            print("Finished data up to {} out of {}".format(e,train_size))
                         s = e
                     end_time = time.time()
                     print ('the training took: %d(s)' % (end_time - start_time))
