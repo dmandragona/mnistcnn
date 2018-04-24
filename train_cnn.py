@@ -121,17 +121,35 @@ class ConvNet(object):
     # Model 5.
     # Use Dropout now.
     def model_5(self, X, hidden_size, is_train):
-        # ======================================================================
-        # Two convolutional layers + two fully connected layers, with ReLU.
-        # and  + Dropout.
-        #
-        # ----------------- YOUR CODE HERE ----------------------
-        #
+        conv1 = tf.layers.conv2d(inputs=X,
+            filters=40,
+            kernel_size=[5, 5],
+            padding="same",
+            activation=tf.nn.relu)
+        print(conv1.shape)
+        pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=1)
+        print(pool1.shape)
+        conv2 = tf.layers.conv2d(inputs=pool1,
+            filters=40,
+            kernel_size=[5, 5],
+            padding="same",
+            activation=tf.nn.relu)
+        print(conv2.shape)
+        pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=1)
+        print(pool2.shape)
+        pool2 = tf.reshape(pool2, [-1, pool2.shape[1]*pool2.shape[2]*pool2.shape[3]])
 
-        # Uncomment the following return stmt once method implementation is done.
-        # return  fcl
-        # Delete line return NotImplementedError() once method is implemented.
-        return NotImplementedError()
+        hidden1 = tf.contrib.layers.fully_connected(pool2,hidden_size,
+            activation_fn = tf.nn.relu)   
+        print(hidden1.shape)     
+        dropout = tf.layers.dropout(inputs=hidden1, 
+            rate=0.5)
+        print(dropout.shape)
+        hidden2 = tf.contrib.layers.fully_connected(dropout,hidden_size,
+            activation_fn = tf.nn.relu)
+
+        return tf.layers.dropout(inputs=hidden2, 
+            rate=0.5)
 
     # Entry point for training and evaluation.
     def train_and_evaluate(self, FLAGS, train_set, test_set):
