@@ -38,6 +38,7 @@ class ConvNet(object):
         conv1 = tf.layers.conv2d(inputs=X,
             filters=40,
             kernel_size=[5, 5],
+            padding="same",
             activation=tf.nn.sigmoid)
         print(conv1.shape)
         pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=2, strides=1)
@@ -45,6 +46,7 @@ class ConvNet(object):
         conv2 = tf.layers.conv2d(inputs=pool1,
             filters=40,
             kernel_size=[5, 5],
+            padding="same",
             activation=tf.nn.sigmoid)
         print(conv2.shape)
         pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=2, strides=1)
@@ -93,7 +95,7 @@ class ConvNet(object):
             padding="same",
             activation=tf.nn.relu)
         print(conv1.shape)
-        pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2)
+        pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=1)
         print(pool1.shape)
         conv2 = tf.layers.conv2d(inputs=pool1,
             filters=40,
@@ -101,7 +103,7 @@ class ConvNet(object):
             padding="same",
             activation=tf.nn.relu)
         print(conv2.shape)
-        pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=2)
+        pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=1)
         print(pool2.shape)
         pool2 = tf.reshape(pool2, [-1, pool2.shape[1]*pool2.shape[2]*pool2.shape[3]])
 
