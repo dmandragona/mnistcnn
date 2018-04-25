@@ -1,154 +1,154 @@
 ********************epoch1********************
-the training took: 23(s)
-accuracy of the trained model 0.973400
+the training took: 24(s)
+accuracy of the trained model 0.876500
 
 ********************epoch2********************
 the training took: 22(s)
-accuracy of the trained model 0.979300
+accuracy of the trained model 0.982800
 
 ********************epoch3********************
 the training took: 22(s)
-accuracy of the trained model 0.984100
+accuracy of the trained model 0.986400
 
 ********************epoch4********************
 the training took: 22(s)
-accuracy of the trained model 0.983500
+accuracy of the trained model 0.986300
 
 ********************epoch5********************
 the training took: 22(s)
-accuracy of the trained model 0.985900
+accuracy of the trained model 0.987300
 
 ********************epoch6********************
 the training took: 22(s)
-accuracy of the trained model 0.987000
+accuracy of the trained model 0.988200
 
 ********************epoch7********************
 the training took: 22(s)
-accuracy of the trained model 0.982400
+accuracy of the trained model 0.987300
 
 ********************epoch8********************
 the training took: 22(s)
-accuracy of the trained model 0.987200
+accuracy of the trained model 0.986500
 
 ********************epoch9********************
 the training took: 22(s)
-accuracy of the trained model 0.987800
+accuracy of the trained model 0.987400
 
 ********************epoch10********************
 the training took: 22(s)
-accuracy of the trained model 0.989600
+accuracy of the trained model 0.989700
 
 ********************epoch11********************
 the training took: 22(s)
-accuracy of the trained model 0.989400
+accuracy of the trained model 0.988300
 
 ********************epoch12********************
 the training took: 22(s)
-accuracy of the trained model 0.990700
+accuracy of the trained model 0.989900
 
 ********************epoch13********************
 the training took: 22(s)
-accuracy of the trained model 0.987700
+accuracy of the trained model 0.988500
 
 ********************epoch14********************
 the training took: 22(s)
-accuracy of the trained model 0.988100
+accuracy of the trained model 0.988900
 
 ********************epoch15********************
 the training took: 22(s)
-accuracy of the trained model 0.991000
+accuracy of the trained model 0.990700
 
 ********************epoch16********************
 the training took: 22(s)
-accuracy of the trained model 0.990900
+accuracy of the trained model 0.991600
 
 ********************epoch17********************
 the training took: 22(s)
-accuracy of the trained model 0.990300
+accuracy of the trained model 0.991000
 
 ********************epoch18********************
 the training took: 22(s)
-accuracy of the trained model 0.990000
+accuracy of the trained model 0.988300
 
 ********************epoch19********************
 the training took: 22(s)
-accuracy of the trained model 0.991800
+accuracy of the trained model 0.990300
 
 ********************epoch20********************
 the training took: 22(s)
-accuracy of the trained model 0.990300
+accuracy of the trained model 0.989100
 
 ********************epoch21********************
 the training took: 22(s)
-accuracy of the trained model 0.991200
+accuracy of the trained model 0.990400
 
 ********************epoch22********************
 the training took: 22(s)
-accuracy of the trained model 0.990700
+accuracy of the trained model 0.991400
 
 ********************epoch23********************
 the training took: 22(s)
-accuracy of the trained model 0.992100
+accuracy of the trained model 0.990500
 
 ********************epoch24********************
 the training took: 22(s)
-accuracy of the trained model 0.992200
+accuracy of the trained model 0.989900
 
 ********************epoch25********************
 the training took: 22(s)
-accuracy of the trained model 0.990100
+accuracy of the trained model 0.989800
 
 ********************epoch26********************
 the training took: 22(s)
-accuracy of the trained model 0.990500
+accuracy of the trained model 0.989800
 
 ********************epoch27********************
 the training took: 22(s)
-accuracy of the trained model 0.991500
+accuracy of the trained model 0.988700
 
 ********************epoch28********************
 the training took: 22(s)
-accuracy of the trained model 0.991400
+accuracy of the trained model 0.989000
 
 ********************epoch29********************
 the training took: 22(s)
-accuracy of the trained model 0.990700
+accuracy of the trained model 0.989800
 
 ********************epoch30********************
 the training took: 22(s)
-accuracy of the trained model 0.991000
+accuracy of the trained model 0.990000
 
 ********************epoch31********************
 the training took: 22(s)
-accuracy of the trained model 0.989500
+accuracy of the trained model 0.992100
 
 ********************epoch32********************
 the training took: 22(s)
-accuracy of the trained model 0.991100
+accuracy of the trained model 0.990300
 
 ********************epoch33********************
 the training took: 22(s)
-accuracy of the trained model 0.989000
+accuracy of the trained model 0.988800
 
 ********************epoch34********************
 the training took: 22(s)
-accuracy of the trained model 0.991700
+accuracy of the trained model 0.989400
 
 ********************epoch35********************
 the training took: 22(s)
-accuracy of the trained model 0.991600
+accuracy of the trained model 0.990900
 
 ********************epoch36********************
 the training took: 22(s)
-accuracy of the trained model 0.991300
+accuracy of the trained model 0.991200
 
 ********************epoch37********************
 the training took: 22(s)
-accuracy of the trained model 0.989100
+accuracy of the trained model 0.990700
 
 ********************epoch38********************
 the training took: 22(s)
-accuracy of the trained model 0.991600
+accuracy of the trained model 0.989900
 
 ********************epoch39********************
 the training took: 22(s)
@@ -156,88 +156,88 @@ accuracy of the trained model 0.992000
 
 ********************epoch40********************
 the training took: 22(s)
-accuracy of the trained model 0.990200
+accuracy of the trained model 0.990700
 
 ********************epoch41********************
 the training took: 22(s)
-accuracy of the trained model 0.990100
+accuracy of the trained model 0.989300
 
 ********************epoch42********************
 the training took: 22(s)
-accuracy of the trained model 0.987800
+accuracy of the trained model 0.992300
 
 ********************epoch43********************
 the training took: 22(s)
-accuracy of the trained model 0.990300
+accuracy of the trained model 0.989700
 
 ********************epoch44********************
 the training took: 22(s)
-accuracy of the trained model 0.991300
+accuracy of the trained model 0.990400
 
 ********************epoch45********************
 the training took: 22(s)
-accuracy of the trained model 0.990300
+accuracy of the trained model 0.988600
 
 ********************epoch46********************
 the training took: 22(s)
-accuracy of the trained model 0.991400
+accuracy of the trained model 0.991300
 
 ********************epoch47********************
 the training took: 22(s)
-accuracy of the trained model 0.991500
+accuracy of the trained model 0.992400
 
 ********************epoch48********************
 the training took: 22(s)
-accuracy of the trained model 0.991400
+accuracy of the trained model 0.991700
 
 ********************epoch49********************
 the training took: 22(s)
-accuracy of the trained model 0.991900
+accuracy of the trained model 0.991000
 
 ********************epoch50********************
 the training took: 22(s)
-accuracy of the trained model 0.990900
+accuracy of the trained model 0.989400
 
 ********************epoch51********************
 the training took: 22(s)
-accuracy of the trained model 0.990100
+accuracy of the trained model 0.991400
 
 ********************epoch52********************
 the training took: 22(s)
-accuracy of the trained model 0.989400
+accuracy of the trained model 0.989000
 
 ********************epoch53********************
 the training took: 22(s)
-accuracy of the trained model 0.988100
+accuracy of the trained model 0.990800
 
 ********************epoch54********************
 the training took: 22(s)
-accuracy of the trained model 0.990500
+accuracy of the trained model 0.990100
 
 ********************epoch55********************
 the training took: 22(s)
-accuracy of the trained model 0.991300
+accuracy of the trained model 0.990900
 
 ********************epoch56********************
 the training took: 22(s)
-accuracy of the trained model 0.989700
+accuracy of the trained model 0.986300
 
 ********************epoch57********************
 the training took: 22(s)
-accuracy of the trained model 0.991200
+accuracy of the trained model 0.989400
 
 ********************epoch58********************
 the training took: 22(s)
-accuracy of the trained model 0.991200
+accuracy of the trained model 0.988300
 
 ********************epoch59********************
 the training took: 22(s)
-accuracy of the trained model 0.991100
+accuracy of the trained model 0.990900
 
 ********************epoch60********************
 the training took: 22(s)
-accuracy of the trained model 0.991300
+accuracy of the trained model 0.992100
 
 
 ********************model 4********************
-accuracy is 0.991300
+accuracy is 0.992100
